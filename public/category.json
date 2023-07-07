@@ -1,0 +1,118 @@
+[
+    {
+     "name": "Marvin",
+     "avatar": "/img/mason.jpg",
+     "designation": "Mason",
+     "id": "1",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Mason"
+    },
+    {
+     "name": "Rosenbaum",
+     "avatar": "/img/carpenter.jpg",
+     "designation": "carpenter",
+     "id": "2",
+     "exprience":"8",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Carpenter"
+    },
+    {
+     "name": " Angelo ",
+     "avatar": "/img/ceramic.jpg",
+     "designation": "Mason",
+     "id": "3",
+     "exprience":"5.2",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Plumber"
+    },
+    {
+     "name": "Muriel",
+     "avatar": "/img/roof.jpg",
+     "designation": "Head",
+     "id": "4",
+     "exprience":"7",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Tile Work"
+    },
+    {
+     "name": "Prohaska",
+     "avatar": "/img/tiles.jpg",
+     "designation": "Mason",
+     "id": "5",
+     "exprience":"15",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Stone Work"
+    }
+    ,
+    {
+     "name": "Johnathon",
+     "avatar": "/img/face.jpg",
+     "designation": "Mason",
+     "id": "6",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Ceiling"
+    }
+    ,
+    {
+     "name": "Wilson",
+     "avatar": "/img/face.jpg",
+     "designation": "Head Mason",
+     "id": "7",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Electrician"
+    }
+    ,
+    {
+     "name": " Jana",
+     "avatar": "/img/face.jpg",
+     "designation": "Helper",
+     "id": "8",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Labour"
+    }
+    ,
+    {
+     "name": " James",
+     "avatar": "/img/face.jpg",
+     "designation": "Painter",
+     "id": "9",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Painter"
+    }
+    ,
+    {
+     "name": " Surendra",
+     "avatar": "/img/face.jpg",
+     "designation": "Welder",
+     "id": "10",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Welder"
+    }
+    ,
+    {
+     "name": "Pawan",
+     "avatar": "/img/face.jpg",
+     "designation": "Supervisior",
+     "id": "11",
+     "exprience":"10",
+     "masterCategory":"",
+     "categoryLogo":"/img/",
+     "category":"Supervisior"
+    }
+   ]
