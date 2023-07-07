@@ -4,7 +4,7 @@
 import React, { useState } from 'react'
 
 
-const contact = () => {
+const Contact = () => {
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
     const [email, setEmail] = useState("")
@@ -86,4 +86,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
