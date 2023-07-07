@@ -78,8 +78,8 @@ const login = () => {
             <div className="flex items-center justify-center border-t-[1px] border-t-slate-300 w-full relative">
               <div className="-mt-1 font-bod bg-white px-5 absolute">Or</div>
             </div>
-            <Link href={"/"} passHref>
-              <button className="w-full border-yellow-400 hover:border-yellow-500 hover:border-[2px] border-[1px] rounded-3xl p-3 text-black font-bold transition duration-200">Sign Up</button>
+            <Link href={"/register"} passHref>
+              <button className="w-full border-yellow-400 hover:border-yellow-500 hover:border-[2px] border-[1px] rounded-3xl p-3 text-black font-bold transition duration-200">Register</button>
 
             </Link>
           </div>

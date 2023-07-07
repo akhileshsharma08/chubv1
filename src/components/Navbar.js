@@ -22,25 +22,28 @@ const Navbar = () => {
             <Image src={Logo} width={180} height={45} className='hover:cursor-pointer' alt='main logo'/>
           </Link>
           <ul className='hidden sm:flex '>
-            <li className='p-4 rounded-md text-yellow-500 hover:text-white font-semibold'>
-              <Link href='/'>Home</Link>
-            </li>
-            <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
-              <Link href='/services'>Services</Link>
-            </li>
-            <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
-              <Link href='/about'>About</Link>
-            </li>
-            <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
-              <Link href='/contact'>Contact</Link>
-            </li>
+            <Link href='/'><li className='p-4 rounded-md text-yellow-500 hover:text-white font-semibold'>
+              Home
+            </li></Link>
+           <Link href='/services'> <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
+              Services
+            </li></Link>
+           <Link href='/about'> <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
+              About
+            </li></Link>
+           <Link href='/contact'> <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
+              Contact
+            </li></Link>
+           <Link href='/login'> <li className='p-4 rounded-lg text-yellow-500 hover:text-white font-semibold'>
+              Log in
+            </li></Link>
             {/* {user.displayName ? <li className=' p-4 rounded-lg text-yellow-500 bg-yellow-500 text-white hover:text-white hover:bg-yellow-400 font-semibold'>
               <Link href='/login'>Log in</Link>
             </li>:<li className=' p-4 rounded-lg text-yellow-500 bg-yellow-500 text-white hover:text-white hover:bg-yellow-400 font-semibold'>
               <Link href='/login'>Log Out</Link>
             </li> } */}
          {!user?<li className=' p-4 rounded-lg  bg-yellow-500 text-white hover:text-white hover:bg-yellow-400 font-semibold'>
-              <Link href='/login'>Log in</Link>
+              <Link href='/register'>Register</Link>
             </li>:<li className=' hover:cursor-pointer  rounded-lg text-yellow-500 flex justify-center items-center   hover:text-white  font-bold'>
               <Link href='/dashboard' className='text-4xl p-2'><FaUserCircle/></Link>
             </li> }   

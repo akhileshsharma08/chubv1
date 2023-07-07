@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Register from './../components/Register'
 export default function Home() {
   return (
     <>
@@ -31,7 +30,6 @@ export default function Home() {
                             <button className='flex w-3/5 items-center justify-center rounded-full border border-transparent bg-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-400 hover:shadow-lg hover:border-black md:py-4 md:px-10 md:text-lg'> Learn More </button>
                         </div>
                         <div className="w-full max-w-xl xl:px-8 xl:w-5/12 p-2 m-2">
-                            <Register />
                         </div>
                     </div>
                 </div>
