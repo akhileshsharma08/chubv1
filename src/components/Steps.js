@@ -110,7 +110,7 @@ const Steps = () => {
         </div>
       </div>
       <div className="mx-auto w-2/5  flex justify-center items-center">
-      <Image src="/img/logo1.png" className='w-full object-cover  object-center object-cover object-center rounded-lg md:mt-0 mt-12'  objectFit='contain' width="500" height="500"/>
+      <Image src="/img/logo1.png" className='w-full object-cover  object-center  rounded-lg md:mt-0 mt-12'  objectFit='contain' width="500" height="500"/>
       </div>
     
     </div>

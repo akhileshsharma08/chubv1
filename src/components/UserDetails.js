@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { db } from "../firebase";
 import { useRouter } from "next/router";
 import { getStorage,ref,uploadBytes } from "firebase/storage"
+import Image from "next/image";
 
 import {
   doc,

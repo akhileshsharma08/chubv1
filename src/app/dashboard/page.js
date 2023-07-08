@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import { UseUserAuth } from "../../Context/UserAuthContextProvider";
 import { db, storage } from "../../firebase";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
+import Image from "next/image";
 import {
   query,
   collection,
@@ -161,7 +162,7 @@ console.warn("tryinggg")
           <header className="text-gray-600 body-font">
             <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center justify-between">
               <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <img
+                <Image
                   className="object-cover object-center  mx-auto bg-blue-100 rounded-full "
                   width={50}
                   height={50}
@@ -189,7 +190,7 @@ console.warn("tryinggg")
               <Activeplans />
             </div>
             <div className="flex basis-[45%] mx-auto   ">
-              <img
+              <Image
                 className="object-cover object-center flex justify-center items-center bg-blue-200   rounded-full p-2"
                 width={250}
                 height={250}

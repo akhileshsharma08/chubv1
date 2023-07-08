@@ -2,7 +2,7 @@
 "use client"
 
 import React, { useState } from 'react'
-
+import Image from 'next/image'
 
 const Contact = () => {
     const [name, setName] = useState("")
@@ -23,11 +23,11 @@ const Contact = () => {
            
 
                 <div className="py-4 lg:py-8  relative">
-                    <img src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden" alt="map" />
+                    <Image src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden" alt="map" />
                     <div className="xl:mx-auto xl:container  relative ">
                         <div className="flex flex-wrap xl:mx-auto xl:container">
                             <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0  ">
-                                <img src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden" alt="map" />
+                                <Image src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png" className="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden" alt="map" />
                                 <div className="w-full flex flex-col items-start  xl:justify-start  relative z-20 xl:px-0 px-4 xl:py-0 py-4">
                                     <div className="w-full 2xl:pl-48 xl:pt-1">
                                         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-yellow-500">We’re Here</h1>
