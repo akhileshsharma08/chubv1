@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import { useState, useRef } from 'react';
 import { UseUserAuth } from '../Context/UserAuthContextProvider'
-import Data from '../public/category.json'
+import Data from '../../public/category.json'
 import emailjs from '@emailjs/browser';
 import { db } from '../firebase';
 import { useRouter } from 'next/router';

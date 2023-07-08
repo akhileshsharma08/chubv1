@@ -3,7 +3,7 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-re
 import "pure-react-carousel/dist/react-carousel.es.css";
 import {BsFillArrowRightSquareFill,BsFillArrowLeftSquareFill} from 'react-icons/bs'
 import {FaQuoteRight} from 'react-icons/fa'
-import FeedbackData from '../public/feedback.json'
+import FeedbackData from '../../public/feedback.json'
 import Image from 'next/image';
 
 const Testimonials = () => {
