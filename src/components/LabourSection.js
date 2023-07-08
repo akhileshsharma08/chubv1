@@ -12,7 +12,7 @@ const LabourSection = () => {
 
   const items = Data.map((item) => {
     return (
-      <div className="flex flex-wrap mb-5">
+      <div className="flex flex-wrap mb-5" key={item.id}>
         <div className="p-2  w-full mx-2">
           <div key={item.id} className="h-full flex items-center border-gray-200 border p-2 rounded-lg">
             <div className="img rounded-full">

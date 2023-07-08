@@ -7,7 +7,7 @@ import { UseUserAuth } from '../../Context/UserAuthContextProvider'
 import GoogleButton from 'react-google-button'
 import { useRouter } from 'next/navigation';
 
-const login = () => {
+const Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const { LogIn } = UseUserAuth()
@@ -92,4 +92,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

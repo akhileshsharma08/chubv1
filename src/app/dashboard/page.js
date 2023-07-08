@@ -21,7 +21,7 @@ import {
   getDoc,
 } from "firebase/firestore";
 
-const dashboard = () => {
+const Dashboard = () => {
   const { LogOut, user, photo, setCurrentUserData, currenUserData,PlanData,setPlanData } =
     UseUserAuth();
   const [data, setData] = useState();
@@ -207,4 +207,4 @@ console.warn("tryinggg")
   );
 };
 
-export default dashboard;
+export default Dashboard;
