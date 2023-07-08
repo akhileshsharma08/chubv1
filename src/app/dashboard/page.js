@@ -1,9 +1,10 @@
-// import React, { useEffect, useState } from "react";
-// import Activeplans from "../components/Activeplans";
-// import UserDetails from "../components/UserDetails";
-// import BuyPlan from "../components/BuyPlan";
 "use client"
-import { useRouter } from "next/router";
+
+import React, { useEffect, useState } from "react";
+import Activeplans from "../../components/Activeplans";
+import UserDetails from "../../components/UserDetails";
+import BuyPlan from "../../components/BuyPlan";
+import { useRouter } from "next/navigation";
 import { UseUserAuth } from "../../Context/UserAuthContextProvider";
 import { db, storage } from "../../firebase";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
